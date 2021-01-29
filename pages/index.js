@@ -7,8 +7,16 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <h1>Homepage2</h1>
-      <Link href="/ninjas">See Ninja Listing</Link>
+      <h1 className={styles.title}>Homepage2</h1>
+      <p className={styles.text}>
+        Lorem ipsum database crash fork css DOM. Lorem ipsum database crash fork
+        css DOM. Lorem ipsum database crash fork css DOM. wow nice Lorem ipsum
+        database crash fork css DOM. Lorem ipsum database crash fork css DOM.
+        Lorem ipsum database crash fork css DOM
+      </p>
+      <Link href="/ninjas">
+        <a className={styles.btn}>See Ninja Listing</a>
+      </Link>
     </div>
   );
 }
